@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-const int ARRN = 1e7 + 50;
+const int ARRN = 1e6 + 50;
 const int MOD = 100003;
 
 int N, M, x, y;
