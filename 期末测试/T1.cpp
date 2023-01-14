@@ -15,8 +15,8 @@ int main() {
         if (!vis[i]) {
             printf("%d ", a[i]);
             p = a[i], vis[i] = true;
-            for (int j = p; j <= n; j++) {
-                if (!vis[j] && j % p == 0) {
+            for (int j = p; j <= n; j += p) {
+                if (!vis[j]) {
                     vis[j] = true;
                     printf("%d ", a[j]);
                 }
